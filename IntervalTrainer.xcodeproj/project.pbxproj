@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67E1D35F2526E0E5009BD7AB /* IntervalTrainerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1D35E2526E0E5009BD7AB /* IntervalTrainerApp.swift */; };
+		67E1D3612526E0E5009BD7AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1D3602526E0E5009BD7AB /* ContentView.swift */; };
+		67E1D3632526E0E6009BD7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E1D3622526E0E6009BD7AB /* Assets.xcassets */; };
+		67E1D3662526E0E6009BD7AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E1D3652526E0E6009BD7AB /* Preview Assets.xcassets */; };
+		67E1D3712526E0E6009BD7AB /* IntervalTrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1D3702526E0E6009BD7AB /* IntervalTrainerTests.swift */; };
+		67E1D37C2526E0E6009BD7AB /* IntervalTrainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1D37B2526E0E6009BD7AB /* IntervalTrainerUITests.swift */; };
+		67E1D3812526E0E6009BD7AB /* IntervalTrainer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 67E1D3802526E0E6009BD7AB /* IntervalTrainer WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		67E1D3862526E0E7009BD7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E1D3852526E0E7009BD7AB /* Assets.xcassets */; };
+		67E1D38D2526E0E7009BD7AB /* IntervalTrainer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 67E1D38C2526E0E7009BD7AB /* IntervalTrainer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		67E1D3922526E0E7009BD7AB /* IntervalTrainerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1D3912526E0E7009BD7AB /* IntervalTrainerApp.swift */; };
+		67E1D3942526E0E7009BD7AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1D3932526E0E7009BD7AB /* ContentView.swift */; };
+		67E1D3962526E0E7009BD7AB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1D3952526E0E7009BD7AB /* NotificationController.swift */; };
+		67E1D3982526E0E7009BD7AB /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1D3972526E0E7009BD7AB /* NotificationView.swift */; };
+		67E1D39A2526E0E7009BD7AB /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1D3992526E0E7009BD7AB /* ComplicationController.swift */; };
+		67E1D39C2526E0E7009BD7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E1D39B2526E0E7009BD7AB /* Assets.xcassets */; };
+		67E1D39F2526E0E7009BD7AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E1D39E2526E0E7009BD7AB /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67E1D36D2526E0E6009BD7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67E1D3532526E0E5009BD7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67E1D35A2526E0E5009BD7AB;
+			remoteInfo = IntervalTrainer;
+		};
+		67E1D3782526E0E6009BD7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67E1D3532526E0E5009BD7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67E1D35A2526E0E5009BD7AB;
+			remoteInfo = IntervalTrainer;
+		};
+		67E1D3822526E0E6009BD7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67E1D3532526E0E5009BD7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67E1D37F2526E0E6009BD7AB;
+			remoteInfo = "IntervalTrainer WatchKit App";
+		};
+		67E1D38E2526E0E7009BD7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67E1D3532526E0E5009BD7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67E1D38B2526E0E7009BD7AB;
+			remoteInfo = "IntervalTrainer WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		67E1D3A72526E0E7009BD7AB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				67E1D38D2526E0E7009BD7AB /* IntervalTrainer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E1D3AB2526E0E7009BD7AB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				67E1D3812526E0E6009BD7AB /* IntervalTrainer WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		67E1D35B2526E0E5009BD7AB /* IntervalTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntervalTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E1D35E2526E0E5009BD7AB /* IntervalTrainerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalTrainerApp.swift; sourceTree = "<group>"; };
+		67E1D3602526E0E5009BD7AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67E1D3622526E0E6009BD7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67E1D3652526E0E6009BD7AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67E1D3672526E0E6009BD7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E1D36C2526E0E6009BD7AB /* IntervalTrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntervalTrainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E1D3702526E0E6009BD7AB /* IntervalTrainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalTrainerTests.swift; sourceTree = "<group>"; };
+		67E1D3722526E0E6009BD7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E1D3772526E0E6009BD7AB /* IntervalTrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntervalTrainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E1D37B2526E0E6009BD7AB /* IntervalTrainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalTrainerUITests.swift; sourceTree = "<group>"; };
+		67E1D37D2526E0E6009BD7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E1D3802526E0E6009BD7AB /* IntervalTrainer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IntervalTrainer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E1D3852526E0E7009BD7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67E1D3872526E0E7009BD7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E1D38C2526E0E7009BD7AB /* IntervalTrainer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IntervalTrainer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E1D3912526E0E7009BD7AB /* IntervalTrainerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalTrainerApp.swift; sourceTree = "<group>"; };
+		67E1D3932526E0E7009BD7AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67E1D3952526E0E7009BD7AB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		67E1D3972526E0E7009BD7AB /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		67E1D3992526E0E7009BD7AB /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		67E1D39B2526E0E7009BD7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67E1D39E2526E0E7009BD7AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67E1D3A02526E0E7009BD7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E1D3A12526E0E7009BD7AB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67E1D3582526E0E5009BD7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E1D3692526E0E6009BD7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E1D3742526E0E6009BD7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E1D3892526E0E7009BD7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67E1D3522526E0E5009BD7AB = {
+			isa = PBXGroup;
+			children = (
+				67E1D35D2526E0E5009BD7AB /* IntervalTrainer */,
+				67E1D36F2526E0E6009BD7AB /* IntervalTrainerTests */,
+				67E1D37A2526E0E6009BD7AB /* IntervalTrainerUITests */,
+				67E1D3842526E0E6009BD7AB /* IntervalTrainer WatchKit App */,
+				67E1D3902526E0E7009BD7AB /* IntervalTrainer WatchKit Extension */,
+				67E1D35C2526E0E5009BD7AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67E1D35C2526E0E5009BD7AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67E1D35B2526E0E5009BD7AB /* IntervalTrainer.app */,
+				67E1D36C2526E0E6009BD7AB /* IntervalTrainerTests.xctest */,
+				67E1D3772526E0E6009BD7AB /* IntervalTrainerUITests.xctest */,
+				67E1D3802526E0E6009BD7AB /* IntervalTrainer WatchKit App.app */,
+				67E1D38C2526E0E7009BD7AB /* IntervalTrainer WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67E1D35D2526E0E5009BD7AB /* IntervalTrainer */ = {
+			isa = PBXGroup;
+			children = (
+				67E1D35E2526E0E5009BD7AB /* IntervalTrainerApp.swift */,
+				67E1D3602526E0E5009BD7AB /* ContentView.swift */,
+				67E1D3622526E0E6009BD7AB /* Assets.xcassets */,
+				67E1D3672526E0E6009BD7AB /* Info.plist */,
+				67E1D3642526E0E6009BD7AB /* Preview Content */,
+			);
+			path = IntervalTrainer;
+			sourceTree = "<group>";
+		};
+		67E1D3642526E0E6009BD7AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67E1D3652526E0E6009BD7AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67E1D36F2526E0E6009BD7AB /* IntervalTrainerTests */ = {
+			isa = PBXGroup;
+			children = (
+				67E1D3702526E0E6009BD7AB /* IntervalTrainerTests.swift */,
+				67E1D3722526E0E6009BD7AB /* Info.plist */,
+			);
+			path = IntervalTrainerTests;
+			sourceTree = "<group>";
+		};
+		67E1D37A2526E0E6009BD7AB /* IntervalTrainerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67E1D37B2526E0E6009BD7AB /* IntervalTrainerUITests.swift */,
+				67E1D37D2526E0E6009BD7AB /* Info.plist */,
+			);
+			path = IntervalTrainerUITests;
+			sourceTree = "<group>";
+		};
+		67E1D3842526E0E6009BD7AB /* IntervalTrainer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				67E1D3852526E0E7009BD7AB /* Assets.xcassets */,
+				67E1D3872526E0E7009BD7AB /* Info.plist */,
+			);
+			path = "IntervalTrainer WatchKit App";
+			sourceTree = "<group>";
+		};
+		67E1D3902526E0E7009BD7AB /* IntervalTrainer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				67E1D3912526E0E7009BD7AB /* IntervalTrainerApp.swift */,
+				67E1D3932526E0E7009BD7AB /* ContentView.swift */,
+				67E1D3952526E0E7009BD7AB /* NotificationController.swift */,
+				67E1D3972526E0E7009BD7AB /* NotificationView.swift */,
+				67E1D3992526E0E7009BD7AB /* ComplicationController.swift */,
+				67E1D39B2526E0E7009BD7AB /* Assets.xcassets */,
+				67E1D3A02526E0E7009BD7AB /* Info.plist */,
+				67E1D3A12526E0E7009BD7AB /* PushNotificationPayload.apns */,
+				67E1D39D2526E0E7009BD7AB /* Preview Content */,
+			);
+			path = "IntervalTrainer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		67E1D39D2526E0E7009BD7AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67E1D39E2526E0E7009BD7AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67E1D35A2526E0E5009BD7AB /* IntervalTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E1D3AC2526E0E7009BD7AB /* Build configuration list for PBXNativeTarget "IntervalTrainer" */;
+			buildPhases = (
+				67E1D3572526E0E5009BD7AB /* Sources */,
+				67E1D3582526E0E5009BD7AB /* Frameworks */,
+				67E1D3592526E0E5009BD7AB /* Resources */,
+				67E1D3AB2526E0E7009BD7AB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67E1D3832526E0E6009BD7AB /* PBXTargetDependency */,
+			);
+			name = IntervalTrainer;
+			productName = IntervalTrainer;
+			productReference = 67E1D35B2526E0E5009BD7AB /* IntervalTrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67E1D36B2526E0E6009BD7AB /* IntervalTrainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E1D3AF2526E0E7009BD7AB /* Build configuration list for PBXNativeTarget "IntervalTrainerTests" */;
+			buildPhases = (
+				67E1D3682526E0E6009BD7AB /* Sources */,
+				67E1D3692526E0E6009BD7AB /* Frameworks */,
+				67E1D36A2526E0E6009BD7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67E1D36E2526E0E6009BD7AB /* PBXTargetDependency */,
+			);
+			name = IntervalTrainerTests;
+			productName = IntervalTrainerTests;
+			productReference = 67E1D36C2526E0E6009BD7AB /* IntervalTrainerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67E1D3762526E0E6009BD7AB /* IntervalTrainerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E1D3B22526E0E7009BD7AB /* Build configuration list for PBXNativeTarget "IntervalTrainerUITests" */;
+			buildPhases = (
+				67E1D3732526E0E6009BD7AB /* Sources */,
+				67E1D3742526E0E6009BD7AB /* Frameworks */,
+				67E1D3752526E0E6009BD7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67E1D3792526E0E6009BD7AB /* PBXTargetDependency */,
+			);
+			name = IntervalTrainerUITests;
+			productName = IntervalTrainerUITests;
+			productReference = 67E1D3772526E0E6009BD7AB /* IntervalTrainerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		67E1D37F2526E0E6009BD7AB /* IntervalTrainer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E1D3A82526E0E7009BD7AB /* Build configuration list for PBXNativeTarget "IntervalTrainer WatchKit App" */;
+			buildPhases = (
+				67E1D37E2526E0E6009BD7AB /* Resources */,
+				67E1D3A72526E0E7009BD7AB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67E1D38F2526E0E7009BD7AB /* PBXTargetDependency */,
+			);
+			name = "IntervalTrainer WatchKit App";
+			productName = "IntervalTrainer WatchKit App";
+			productReference = 67E1D3802526E0E6009BD7AB /* IntervalTrainer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		67E1D38B2526E0E7009BD7AB /* IntervalTrainer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E1D3A42526E0E7009BD7AB /* Build configuration list for PBXNativeTarget "IntervalTrainer WatchKit Extension" */;
+			buildPhases = (
+				67E1D3882526E0E7009BD7AB /* Sources */,
+				67E1D3892526E0E7009BD7AB /* Frameworks */,
+				67E1D38A2526E0E7009BD7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IntervalTrainer WatchKit Extension";
+			productName = "IntervalTrainer WatchKit Extension";
+			productReference = 67E1D38C2526E0E7009BD7AB /* IntervalTrainer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67E1D3532526E0E5009BD7AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					67E1D35A2526E0E5009BD7AB = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					67E1D36B2526E0E6009BD7AB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 67E1D35A2526E0E5009BD7AB;
+					};
+					67E1D3762526E0E6009BD7AB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 67E1D35A2526E0E5009BD7AB;
+					};
+					67E1D37F2526E0E6009BD7AB = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					67E1D38B2526E0E7009BD7AB = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 67E1D3562526E0E5009BD7AB /* Build configuration list for PBXProject "IntervalTrainer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67E1D3522526E0E5009BD7AB;
+			productRefGroup = 67E1D35C2526E0E5009BD7AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67E1D35A2526E0E5009BD7AB /* IntervalTrainer */,
+				67E1D36B2526E0E6009BD7AB /* IntervalTrainerTests */,
+				67E1D3762526E0E6009BD7AB /* IntervalTrainerUITests */,
+				67E1D37F2526E0E6009BD7AB /* IntervalTrainer WatchKit App */,
+				67E1D38B2526E0E7009BD7AB /* IntervalTrainer WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67E1D3592526E0E5009BD7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E1D3662526E0E6009BD7AB /* Preview Assets.xcassets in Resources */,
+				67E1D3632526E0E6009BD7AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E1D36A2526E0E6009BD7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E1D3752526E0E6009BD7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E1D37E2526E0E6009BD7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E1D3862526E0E7009BD7AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E1D38A2526E0E7009BD7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E1D39F2526E0E7009BD7AB /* Preview Assets.xcassets in Resources */,
+				67E1D39C2526E0E7009BD7AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67E1D3572526E0E5009BD7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E1D3612526E0E5009BD7AB /* ContentView.swift in Sources */,
+				67E1D35F2526E0E5009BD7AB /* IntervalTrainerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E1D3682526E0E6009BD7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E1D3712526E0E6009BD7AB /* IntervalTrainerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E1D3732526E0E6009BD7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E1D37C2526E0E6009BD7AB /* IntervalTrainerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E1D3882526E0E7009BD7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E1D3962526E0E7009BD7AB /* NotificationController.swift in Sources */,
+				67E1D3942526E0E7009BD7AB /* ContentView.swift in Sources */,
+				67E1D39A2526E0E7009BD7AB /* ComplicationController.swift in Sources */,
+				67E1D3922526E0E7009BD7AB /* IntervalTrainerApp.swift in Sources */,
+				67E1D3982526E0E7009BD7AB /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67E1D36E2526E0E6009BD7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67E1D35A2526E0E5009BD7AB /* IntervalTrainer */;
+			targetProxy = 67E1D36D2526E0E6009BD7AB /* PBXContainerItemProxy */;
+		};
+		67E1D3792526E0E6009BD7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67E1D35A2526E0E5009BD7AB /* IntervalTrainer */;
+			targetProxy = 67E1D3782526E0E6009BD7AB /* PBXContainerItemProxy */;
+		};
+		67E1D3832526E0E6009BD7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67E1D37F2526E0E6009BD7AB /* IntervalTrainer WatchKit App */;
+			targetProxy = 67E1D3822526E0E6009BD7AB /* PBXContainerItemProxy */;
+		};
+		67E1D38F2526E0E7009BD7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67E1D38B2526E0E7009BD7AB /* IntervalTrainer WatchKit Extension */;
+			targetProxy = 67E1D38E2526E0E7009BD7AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67E1D3A22526E0E7009BD7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67E1D3A32526E0E7009BD7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		67E1D3A52526E0E7009BD7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IntervalTrainer WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "IntervalTrainer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = claidev.IntervalTrainer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		67E1D3A62526E0E7009BD7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IntervalTrainer WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "IntervalTrainer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = claidev.IntervalTrainer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		67E1D3A92526E0E7009BD7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = IntervalTrainer_WatchKit_Extension;
+				INFOPLIST_FILE = "IntervalTrainer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = claidev.IntervalTrainer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		67E1D3AA2526E0E7009BD7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = IntervalTrainer_WatchKit_Extension;
+				INFOPLIST_FILE = "IntervalTrainer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = claidev.IntervalTrainer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		67E1D3AD2526E0E7009BD7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IntervalTrainer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = IntervalTrainer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = claidev.IntervalTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67E1D3AE2526E0E7009BD7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IntervalTrainer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = IntervalTrainer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = claidev.IntervalTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67E1D3B02526E0E7009BD7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntervalTrainerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = claidev.IntervalTrainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntervalTrainer.app/IntervalTrainer";
+			};
+			name = Debug;
+		};
+		67E1D3B12526E0E7009BD7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntervalTrainerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = claidev.IntervalTrainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntervalTrainer.app/IntervalTrainer";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67E1D3B32526E0E7009BD7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntervalTrainerUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = claidev.IntervalTrainerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntervalTrainer;
+			};
+			name = Debug;
+		};
+		67E1D3B42526E0E7009BD7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntervalTrainerUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = claidev.IntervalTrainerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntervalTrainer;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67E1D3562526E0E5009BD7AB /* Build configuration list for PBXProject "IntervalTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E1D3A22526E0E7009BD7AB /* Debug */,
+				67E1D3A32526E0E7009BD7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E1D3A42526E0E7009BD7AB /* Build configuration list for PBXNativeTarget "IntervalTrainer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E1D3A52526E0E7009BD7AB /* Debug */,
+				67E1D3A62526E0E7009BD7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E1D3A82526E0E7009BD7AB /* Build configuration list for PBXNativeTarget "IntervalTrainer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E1D3A92526E0E7009BD7AB /* Debug */,
+				67E1D3AA2526E0E7009BD7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E1D3AC2526E0E7009BD7AB /* Build configuration list for PBXNativeTarget "IntervalTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E1D3AD2526E0E7009BD7AB /* Debug */,
+				67E1D3AE2526E0E7009BD7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E1D3AF2526E0E7009BD7AB /* Build configuration list for PBXNativeTarget "IntervalTrainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E1D3B02526E0E7009BD7AB /* Debug */,
+				67E1D3B12526E0E7009BD7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E1D3B22526E0E7009BD7AB /* Build configuration list for PBXNativeTarget "IntervalTrainerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E1D3B32526E0E7009BD7AB /* Debug */,
+				67E1D3B42526E0E7009BD7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67E1D3532526E0E5009BD7AB /* Project object */;
+}
